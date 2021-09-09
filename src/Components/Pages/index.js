@@ -1,5 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
+import About from '../About'
+import { homeObjOne, homeObjTwo, homeObjThree } from '../About/Data'
+import Contact from '../Contact'
 import Header from '../Header'
 import Navbar from '../Nav'
 
@@ -21,6 +24,11 @@ const Home = () => {
                   <Sidebar isOpen={isOpen} toggle={toggle}/>
                   <Navbar toggle={toggle}/>
                   <Header />
+                  <About {...homeObjOne}/>
+                  <About {...homeObjTwo}/>
+                  <About {...homeObjThree}/>
+
+                  <Contact />
 
             </>
       )

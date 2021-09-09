@@ -13,6 +13,7 @@ export const Nav = styled.nav `
       position: sticky;
       top: 0;
       z-index: 10;
+      /* border-bottom: 3px solid #fce77d; */
 
       @media screen and (max-width: 960px) {
       transition: 0.8s all ease;
@@ -81,9 +82,10 @@ export const NavLinks = styled(LinkS) `
       padding: 0 1rem;
       height: 100%;
       cursor: pointer;
+      margin-left: 1vw;
 
       &.active {
-            border-bottom: 3px solid #01bf71;
+            border-bottom: 3px solid #fce77d;
       }
 
       &:hover {

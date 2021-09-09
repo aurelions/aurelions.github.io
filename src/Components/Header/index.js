@@ -1,7 +1,7 @@
 import React from 'react'
 import Video from '../../videos/video.mp4'
 import { HeaderContainer, HeaderBg, VideoBg, HeaderContent, HeaderH1, HeaderP} from './Header'
-
+import Button from '../Button'
 
 const Header = () => {
       return (

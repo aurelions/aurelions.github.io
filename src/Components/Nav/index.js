@@ -13,7 +13,12 @@ const Navbar = ({toggle}) => {
 
                         <NavbarContainer>
 
-                              <NavLogo to="/">
+                              <NavLogo to="home" 
+                              smooth={true}
+                              duration={1000}
+                              spy={true}
+                              exact='true'
+                              offset={-80}>
                                     TMWEBITECHTURE
                               </NavLogo>
 
@@ -25,7 +30,12 @@ const Navbar = ({toggle}) => {
 
                                     <NavItem>
 
-                                          <NavLinks to='about'>
+                                          <NavLinks to='about' smooth={true}
+                                                duration={1000}
+                                                spy={true}
+                                                exact='true'
+                                                offset={-80}
+                                                >
                                                 About
                                           </NavLinks>
 
@@ -33,7 +43,12 @@ const Navbar = ({toggle}) => {
 
                                     <NavItem>
 
-                                          <NavLinks to='projects'>
+                                          <NavLinks to='projects'
+                                          smooth={true}
+                                          duration={1000}
+                                          spy={true}
+                                          exact='true'
+                                          offset={-80}>
                                                 Projects
                                           </NavLinks>
 
@@ -41,7 +56,12 @@ const Navbar = ({toggle}) => {
 
                                     <NavItem>
 
-                                          <NavLinks to='contact'>
+                                          <NavLinks to='contact'
+                                          smooth={true}
+                                          duration={1000}
+                                          spy={true}
+                                          exact='true'
+                                          offset={-80}>
                                                 Contact Me
                                           </NavLinks>
 

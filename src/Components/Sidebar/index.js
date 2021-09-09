@@ -14,7 +14,12 @@ const Sidebar = ({isOpen, toggle}) => {
 
                         <SidebarMenu>
 
-                              <SidebarLink to='about' onClick={toggle}>
+                              <SidebarLink to='about' onClick={toggle}
+                              smooth={true}
+                              duration={1000}
+                              spy={true}
+                              exact='true'
+                              offset={-80}>
                                     About
                               </SidebarLink>
 
@@ -22,7 +27,12 @@ const Sidebar = ({isOpen, toggle}) => {
 
                         <SidebarMenu>
 
-                              <SidebarLink to='projects' onClick={toggle}>
+                              <SidebarLink to='projects' onClick={toggle}
+                              smooth={true}
+                              duration={1000}
+                              spy={true}
+                              exact='true'
+                              offset={-80}>
                                     Projects
                               </SidebarLink>
 
@@ -30,7 +40,12 @@ const Sidebar = ({isOpen, toggle}) => {
 
                         <SidebarMenu>
 
-                              <SidebarLink to='contact' onClick={toggle}>
+                              <SidebarLink to='contact' onClick={toggle}
+                              smooth={true}
+                              duration={1000}
+                              spy={true}
+                              exact='true'
+                              offset={-80}>
                                     Contact Me
                               </SidebarLink>
 
